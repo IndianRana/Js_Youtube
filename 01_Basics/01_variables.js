@@ -2,6 +2,7 @@ const accountId = 144523     //never changes
 let   accountEmail = "Indianrana@gmail.com"
 var accountPassword = "123456"    //prefer not to use var bcz of issue in block scope or function scopr
 accountCity = "Saharanpur"
+let accountState;    //  Undefined
 
 //accountId = 234   // Not allow ,assignment to constant variable
 
@@ -10,4 +11,5 @@ accountPassword = "112233"
 accountCity = "Gangho"
 
 console.log(accountId)
-console.table([accountEmail, accountId, accountPassword, accountCity])
+console.table([accountEmail, accountId, accountPassword, accountCity, accountState])
+
