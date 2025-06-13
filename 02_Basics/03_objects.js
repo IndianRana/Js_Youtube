@@ -39,4 +39,4 @@ JsUser.greetingtwo = function(){
     
 }
 console.log(JsUser.greeting());
-console.log(JsUser.greetingtwo());
+console.log(JsUser.greetinge());
